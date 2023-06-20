@@ -1,6 +1,6 @@
-# Vercel OpenAI
+# Vercel SerpAPI
 
-Proxy the OpenAI API with Vercel's Edge Functions
+Proxy the SerpAPI with Vercel's Edge Functions
 
 Inspired by [cloudflare-proxy](https://github.com/barretlee/cloudflare-proxy)
 
