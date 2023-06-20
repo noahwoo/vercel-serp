@@ -6,7 +6,7 @@ export const config = {
 
 export default async function handler(req: NextRequest) {
   const url = new URL(req.url)
-  url.host = 'api.openai.com'
+  url.host = 'serpapi.com'
   url.pathname = url.pathname.replace(/^\/api/, '')
   return fetch(
     url.toString(),
